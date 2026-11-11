@@ -14,5 +14,3 @@ vvp sim.out
 ```
 
 The simulation reads [init.mem](init.mem), which encodes the four instructions in [sample.S](examples/sample.S). In the trace, addresses `0x00` through `0x0c` decode to `add`, `xor`, `andi`, and `ori`. The simulator also writes `simulation_results.vcd` for waveform inspection in GTKWave. The sample uses only four words of the ROM, so a short-memory-image warning can appear before the trace.
-
-The original [coursework AI use note](docs/coursework-ai-use.md) is included for attribution.
