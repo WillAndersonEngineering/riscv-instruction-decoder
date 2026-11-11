@@ -1,0 +1,1 @@
+I was having issues with my ecall bits. Icarus didn't like that I had assign s_id_ecall_bit = s_id_instr[20]; defined in an always comb. I had some other compilation errors that I had AI explain solutions for.

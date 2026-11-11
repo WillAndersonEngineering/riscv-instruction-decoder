@@ -1,0 +1,6 @@
+*.out
+*.vcd
+*.log
+*.o
+*.elf
+*.bin
